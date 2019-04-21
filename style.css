@@ -1,0 +1,104 @@
+body
+{
+	background: #651a1a;
+	font-family: arial;
+}
+
+h1
+{
+	font-size: 18px;
+	text-align: center;
+}
+
+h4
+{
+	font-size: 14px;
+	text-align: center;
+}
+
+h4.first
+{
+	text-align: center;
+	font-size: 14px;
+	margin-left: 220px;
+}
+
+h4.welcome
+{
+	text-align: center;
+	font-size: 14px;
+	margin-left:220px;
+}
+
+h4.announcements
+{
+	text-align: center;
+	font-size: 14px;
+	margin-left: 260px;
+}
+
+p
+{
+	font-size: 14px;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+
+p.p_first
+{
+	font-size: 14px;
+	text-align: center;
+	word-wrap: break-word;
+	
+}
+
+p.p_announcements
+{
+	font-size: 14px;
+	text-align: center;
+	word-wrap: break-word;
+	margin-left: 250px;
+	word-wrap: break-word;
+}
+
+img.float_first
+{
+	float: right;
+	margin-left: 20px;
+	padding:1px;
+    border:3px solid #021a40;
+	max-width: 100%
+	
+}
+
+img.float_second
+{
+	float: right;
+	padding:1px;
+    border:3px solid #021a40;
+	max-width: 100%
+}
+
+img.float_third
+{
+	margin-left: 500px;
+	padding:1px;
+    border:3px solid #021a40;
+	max-width: 100%
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px){
+	#featured li{
+		width: 46%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	#featured li{
+		width: 92%;
+	}
+}
